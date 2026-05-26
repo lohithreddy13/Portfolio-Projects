@@ -1,6 +1,5 @@
 # 📊 Interactive Sales Analytics Dashboard | Tableau
 
-![Banner](assets/github_banner.png)
 
 ## Overview
 
@@ -105,7 +104,7 @@ Dashboard interactivity includes:
 
 ### Full Dashboard View
 
-![Dashboard Preview](dashboards/dashboard_preview.png)
+![Dashboard Preview](images/Dashboard-Overview.png)
 
 ---
 
