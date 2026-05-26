@@ -116,7 +116,7 @@ Dashboard interactivity includes:
 
 ### Product Analysis
 
-![Subcategory Analysis](images/Sales&Profit-by-subcategory.png)
+![Subcategory Analysis](images/Sales&Profit-by-Subcategory.png)
 
 ---
 
