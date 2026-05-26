@@ -110,7 +110,7 @@ Dashboard interactivity includes:
 
 ### KPI Section
 
-![KPI Section](dashboards/kpi_section.png)
+![KPI Section](imagess/KPI-TotalProfit.png)
 
 ---
 
