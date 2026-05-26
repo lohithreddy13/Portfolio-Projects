@@ -108,12 +108,6 @@ Dashboard interactivity includes:
 
 ---
 
-### KPI Section
-
-![KPI Section](imagess/KPI-TotalProfit.png)
-
----
-
 ### Trend Analysis
 
 ![Weekly Trends](dashboards/trend_analysis.png)
@@ -122,7 +116,7 @@ Dashboard interactivity includes:
 
 ### Product Analysis
 
-![Subcategory Analysis](dashboards/subcategory_analysis.png)
+![Subcategory Analysis](images/Sales&Profit-by-subcategory.png)
 
 ---
 
