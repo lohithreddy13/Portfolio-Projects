@@ -110,7 +110,7 @@ Dashboard interactivity includes:
 
 ### Trend Analysis
 
-![Weekly Trends](dashboards/trend_analysis.png)
+![Weekly Trends](images/Sales&Profit-trends-overtime.png)
 
 ---
 
