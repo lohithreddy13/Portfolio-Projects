@@ -18,46 +18,28 @@ dim_product --- fact_sales --- dim_seller
 
 -- FACT SALES TABLE
 
-
-
 CREATE TABLE fact_sales AS
-
 SELECT
-
-o.order_id,
-
-o.customer_id,
-
-oi.product_id,
-
-oi.seller_id,
-
-DATE(o.order_purchase_timestamp) AS purchase_date,
-
-o.order_status,
-
-oi.price,
-
-oi.freight_value,
-
-p.payment_type,
-
-p.payment_installments,
-
-p.payment_value,
-
-r.review_score
-
+    o.order_id,
+    o.customer_id,
+    oi.product_id,
+    oi.seller_id,
+    oi.price,
+    oi.freight_value,
+    p.payment_value,
+    o.order_status,
+    DATE(o.order_purchase_timestamp)        AS order_date,
+    o.order_delivered_customer_date         AS delivered_date,
+    o.order_estimated_delivery_date         AS estimated_delivery_date,  
+    r.review_score
 FROM orders o
+JOIN order_items oi ON o.order_id = oi.order_id
+LEFT JOIN payments p ON o.order_id = p.order_id
+LEFT JOIN reviews r ON o.order_id = r.order_id;
 
-JOIN order_items oi
-ON o.order_id=oi.order_id
 
-LEFT JOIN payments p
-ON o.order_id=p.order_id
 
-Left JOIN reviews r
-ON o.order_id=r.order_id;
+
 
 
 
